@@ -1,0 +1,29 @@
+{
+  "name": "telegram-bot-assai-atacadista",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "micro-bot src/server.js",
+    "cron": "node src/cron.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-cache-adapter": "^2.7.3",
+    "bluebird": "^3.7.2",
+    "cheerio": "^0.22.0",
+    "lowdb": "^1.0.0",
+    "micro-bot": "^2.5.3",
+    "pg": "^8.6.0",
+    "pg-promise": "^10.10.2",
+    "telegraf": "^4.3.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/gustavonovaes/telegram-bot-assai-atacadista"
+  },
+  "license": "MIT"
+}
